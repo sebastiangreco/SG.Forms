@@ -1,10 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="SG.Forms.Views.MenuView">
+             x:Class="SG.Forms.Views.MenuView"
+             xmlns:viewModelBase="clr-namespace:SG.Forms.ViewModels"
+             viewModelBase:ViewModelLocator.AutoWireViewModel="true"
+             Title="Menu">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
+            <Label Text="Menu view"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

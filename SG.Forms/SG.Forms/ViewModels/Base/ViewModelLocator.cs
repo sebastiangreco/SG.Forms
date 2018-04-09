@@ -40,6 +40,8 @@ namespace SG.Forms.ViewModels
 
             //ViewModels
             builder.RegisterType<RootViewModel>();
+            builder.RegisterType<MenuViewModel>();
+            builder.RegisterType<HomeViewModel>();
 
 
             //Services
